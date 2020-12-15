@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>选择器</title>
+    <style>
+        /* 基础选择器 */
+        /* 标签选择器 选择所有的某一类的标签*/
+        p {
+            color: blue;
+        }
+        /* 类选择器 单独选择,实现差异化*/
+        /* 定义一个类 body里面调用*/
+        .red {
+            color: red;
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+            font-size: 30px;
+        }
+        .green {
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <p>男</p>
+    <p>男</p>
+    <div>女</div>
+    <li class="red">大奖赛</li>
+    <div class="green red box">绿盒子</div>
+</body>
+</html>
